@@ -49,7 +49,7 @@ export function SolutionsSection() {
 
   return (
     <section
-      id="solutions"
+      id="services"
       className="py-16 sm:py-20 lg:py-24 relative overflow-hidden">
       {/* Static background - no animation */}
       <div className="absolute inset-0 opacity-20 bg-gradient-to-r from-[#fefefe] via-[#68d7db] to-[#5a9fe4]" />
