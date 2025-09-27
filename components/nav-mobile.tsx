@@ -54,7 +54,7 @@ export const NavMobile = () => {
               <SheetDescription>Navegação do site</SheetDescription>
             </VisuallyHidden.Root>
             <Image
-              src="/images/logo.webp"
+              src="/images/logo.png"
               alt="Aura Digital Logo"
               width={120}
               height={40}

@@ -38,7 +38,7 @@ export function HeroSection() {
             <Link href="/" className="flex items-center">
               <div className="relative w-[200px] h-[140px] lg:w-[300px] lg:h-[236px] rounded-lg overflow-hidden">
                 <Image
-                  src="/images/logo.webp"
+                  src="/images/logo.png"
                   alt="Aura Digital"
                   fill
                   sizes="(max-width: 640px) 120px, (max-width: 1024px) 140px, 150px"
