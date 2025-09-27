@@ -29,14 +29,14 @@ export function HeroSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Título com melhor hierarquia visual no mobile */}
-          <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl text-white mb-4 sm:mb-6 text-balance leading-tight">
+          <h1 className="text-md xs:text-2xl sm:text-3xl lg:text-4xl text-white mb-4 sm:mb-6 text-balance leading-tight">
             Cuidamos da sua Presença Digital para que você cuide do que importa
           </h1>
 
           {/* Logo centralizado - ajustado para mobile */}
           <div className="flex justify-center">
             <Link href="/" className="flex items-center">
-              <div className="relative w-[120px] h-[69px] sm:w-[140px] sm:h-[80px] lg:w-[300px] lg:h-[236px] rounded-lg overflow-hidden">
+              <div className="relative w-[200px] h-[140px] lg:w-[300px] lg:h-[236px] rounded-lg overflow-hidden">
                 <Image
                   src="/images/logo.webp"
                   alt="Aura Digital"
@@ -50,7 +50,7 @@ export function HeroSection() {
           </div>
 
           {/* Parágrafo com melhor espaçamento e tamanho no mobile */}
-          <p className="text-xl sm:text-3xl lg:text-3xl text-white/95 mb-1 max-w-2xl lg:max-w-3xl mx-auto text-pretty leading-relaxed px-2 sm:px-0">
+          <p className="text-xs sm:text-3xl lg:text-3xl text-white/95 mb-1 max-w-2xl lg:max-w-3xl mx-auto text-pretty leading-relaxed px-2 sm:px-0">
             Sofisticação, Autoridade e Ética são os pilares que tornam a Aura
             referência em setores que exigem excelência.
           </p>

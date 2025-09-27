@@ -75,7 +75,7 @@ export function HowWeWorkSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary mb-6 text-balance">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#417cde] mb-6 text-balance">
             Como Trabalhamos
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
@@ -103,7 +103,7 @@ export function HowWeWorkSection() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.1 }}>
                     <div className="space-y-6">
-                      <h3 className="text-3xl sm:text-4xl font-bold text-primary">
+                      <h3 className="text-3xl sm:text-4xl font-bold text-[#417cde]">
                         {step.title}
                       </h3>
 
@@ -196,7 +196,7 @@ export function HowWeWorkSection() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.1 }}>
                     <div className="space-y-6">
-                      <h3 className="text-3xl sm:text-4xl font-bold text-primary">
+                      <h3 className="text-3xl sm:text-4xl font-bold text-[#417cde]">
                         {step.title}
                       </h3>
 

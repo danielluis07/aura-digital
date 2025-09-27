@@ -55,7 +55,7 @@ export function ExperienceSection() {
             transition={{ duration: 0.5 }}
             className="text-center mb-12 sm:mb-16">
             <motion.h2
-              className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold text-primary mb-4 sm:mb-6 text-balance leading-tight"
+              className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold text-[#417cde] mb-4 sm:mb-6 text-balance leading-tight"
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -83,7 +83,7 @@ export function ExperienceSection() {
                       }
                 }>
                 {/* Static gradient border */}
-                <div className="absolute inset-0 bg-gradient-to-br from-accent/15 via-transparent to-primary/15 opacity-60" />
+                <div className="absolute inset-0 bg-gradient-to-r from-[#fefefe] via-[#508eb3] to-[#3974aa] opacity-20" />
 
                 <CardContent className="p-6 sm:p-8 lg:p-10 relative z-10">
                   {/* Main text - mobile optimized */}
@@ -95,12 +95,12 @@ export function ExperienceSection() {
                     transition={{ duration: 0.5, delay: 0.2 }}>
                     <p className="text-base sm:text-lg lg:text-xl text-foreground leading-relaxed">
                       Nossa experiência é especialmente{" "}
-                      <span className="font-semibold text-primary">
+                      <span className="font-semibold text-[#417cde]">
                         sólida na área da saúde
                       </span>
                       , atendendo tanto profissionais quanto empresas que lidam
                       com{" "}
-                      <span className="font-semibold text-primary">
+                      <span className="font-semibold text-[#417cde]">
                         altos padrões éticos e regulatórios
                       </span>
                       . Nosso método, baseado em estratégia, precisão e
@@ -135,7 +135,7 @@ export function ExperienceSection() {
                             ease: "easeOut",
                           }}>
                           <svg
-                            className="w-full h-full text-accent"
+                            className="w-full h-full text-[#417cde]"
                             fill="none"
                             stroke="currentColor"
                             viewBox="0 0 24 24">
@@ -157,7 +157,7 @@ export function ExperienceSection() {
 
                   {/* Mobile-optimized accent line */}
                   <motion.div
-                    className="mt-5 sm:mt-6 h-0.5 bg-gradient-to-r from-accent via-primary to-accent rounded-full"
+                    className="mt-5 sm:mt-6 h-0.5 bg-gradient-to-r from-[#fefefe] via-[#508eb3] to-[#3974aa] rounded-full"
                     initial={{ width: "0%" }}
                     whileInView={{ width: "70%" }}
                     viewport={{ once: true }}
@@ -183,7 +183,7 @@ export function ExperienceSection() {
                 whileHover={prefersReducedMotion ? {} : { scale: 1.02 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}>
                 {/* Mobile-optimized frame */}
-                <div className="absolute -inset-2 sm:-inset-3 bg-gradient-to-br from-accent/20 to-primary/20 rounded-xl sm:rounded-2xl -z-10" />
+                <div className="absolute -inset-2 sm:-inset-3 bg-gradient-to-r from-[#fefefe] via-[#508eb3] to-[#3974aa] rounded-xl sm:rounded-2xl opacity-20 -z-10" />
 
                 {/* Image container with conditional parallax */}
                 <motion.div
@@ -200,7 +200,7 @@ export function ExperienceSection() {
 
                   {/* Static overlay gradient */}
                   <motion.div
-                    className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent"
+                    className="absolute inset-0 bg-gradient-to-t from-[#508eb3]/20 via-transparent to-transparent"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}

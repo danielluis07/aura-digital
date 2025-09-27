@@ -126,7 +126,7 @@ export function ContactSection() {
             transition={{ duration: 0.5 }}
             className="text-center mb-10 sm:mb-12">
             <motion.h2
-              className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold text-primary mb-4 sm:mb-6 text-balance leading-tight"
+              className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold text-[#417cde] mb-4 sm:mb-6 text-balance leading-tight"
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -159,7 +159,7 @@ export function ContactSection() {
                 {/* Left Column: Text and CTA - mobile optimized */}
                 <div className="text-center lg:text-left mb-10 sm:mb-12 lg:mb-0">
                   <motion.h3
-                    className="text-xl xs:text-2xl sm:text-3xl font-bold text-accent mb-4 sm:mb-6 leading-tight"
+                    className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#417cde] mb-4 sm:mb-6 leading-tight"
                     initial={{ opacity: 0, y: 15 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -174,7 +174,7 @@ export function ContactSection() {
                     transition={{ duration: 0.5, delay: 0.3 }}>
                     <p className="text-base sm:text-lg text-foreground/80 mb-4 sm:mb-6 text-pretty leading-relaxed">
                       Na{" "}
-                      <span className="font-semibold text-primary">
+                      <span className="font-semibold text-[#417cde]">
                         Aura Digital
                       </span>
                       , não acreditamos em pacotes prontos. Cada projeto é
@@ -182,7 +182,7 @@ export function ContactSection() {
                       digital seja eficiente, sofisticada e sem desperdícios.
                     </p>
 
-                    <p className="text-base sm:text-lg mb-8 sm:mb-10 text-pretty leading-relaxed text-accent">
+                    <p className="text-base sm:text-lg mb-8 sm:mb-10 text-pretty leading-relaxed text-[#417cde]">
                       Vamos criar uma proposta personalizada, sem formalidades e
                       à altura do que você procura.
                     </p>
@@ -197,7 +197,7 @@ export function ContactSection() {
                     transition={{ duration: 0.5, delay: 0.4 }}>
                     <MotionButton
                       size="lg"
-                      className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 group relative overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 w-full sm:w-auto min-h-[48px]"
+                      className="text-base sm:text-lg px-6 bg-[#417cde] sm:px-8 py-4 sm:py-6 group relative overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 w-full sm:w-auto min-h-[48px]"
                       whileHover={prefersReducedMotion ? {} : { scale: 1.02 }}
                       whileTap={prefersReducedMotion ? {} : { scale: 0.98 }}
                       transition={{ duration: 0.2 }}>
@@ -269,7 +269,7 @@ export function ContactSection() {
                           <p className="text-xs text-muted-foreground mb-0.5 sm:mb-1 uppercase tracking-wider">
                             {info.label}
                           </p>
-                          <p className="text-xs xs:text-sm font-medium text-foreground group-hover:text-primary transition-colors duration-200 leading-tight">
+                          <p className="text-xs xs:text-sm font-medium text-foreground group-hover:text-[#417cde] transition-colors duration-200 leading-tight">
                             {info.value}
                           </p>
                         </div>

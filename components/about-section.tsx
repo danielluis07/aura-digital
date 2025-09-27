@@ -15,24 +15,27 @@ import { cn } from "@/lib/utils";
 const values = [
   {
     title: "Confiança & Ética",
+    textColor: "text-[#3974aa]",
     description:
       "Construindo presença digital com os mais altos padrões éticos e em conformidade regulatória.",
     icon: Shield,
-    background: "bg-secondary",
+    background: "bg-[#3974aa]",
   },
   {
     title: "Precisão",
+    textColor: "text-[#5dcbde]",
     description:
       "Cada mensagem elaborada com precisão e atenção aos detalhes que a sua profissão exige.",
     icon: Target,
-    background: "bg-accent",
+    background: "bg-[#5dcbde]",
   },
   {
     title: "Autoridade",
+    textColor: "text-[#8ce0d0]",
     description:
       "Estabelecendo sua credibilidade e expertise em cada ponto de contato digital.",
     icon: Crown,
-    background: "bg-[#5787DB]",
+    background: "bg-[#8ce0d0]",
   },
 ];
 
@@ -79,7 +82,7 @@ export function AboutSection() {
               style={prefersReducedMotion ? {} : { x: textX }}
               className="order-2 lg:order-1">
               <motion.h2
-                className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold text-primary mb-6 sm:mb-8 text-balance leading-tight"
+                className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold text-[#417cde] mb-6 sm:mb-8 text-balance leading-tight"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -95,7 +98,7 @@ export function AboutSection() {
                 className="space-y-4 sm:space-y-6">
                 {/* Simplified progress bar - responsive width */}
                 <motion.div
-                  className="h-1 bg-gradient-to-r from-accent to-primary rounded-full mb-4 sm:mb-6"
+                  className="h-1 bg-[#417cde] rounded-full mb-4 sm:mb-6"
                   initial={{ width: 0 }}
                   whileInView={{ width: "60px" }}
                   viewport={{ once: true }}
@@ -104,7 +107,7 @@ export function AboutSection() {
 
                 <p className="text-base sm:text-lg lg:text-xl text-foreground leading-relaxed">
                   Na{" "}
-                  <span className="font-semibold text-primary">
+                  <span className="font-semibold text-[#417cde]">
                     Aura Digital
                   </span>
                   , acreditamos que a forma como você se apresenta é parte
@@ -222,7 +225,10 @@ export function AboutSection() {
                       </motion.div>
 
                       <motion.h3
-                        className="text-lg sm:text-xl lg:text-2xl font-bold text-primary mb-3 sm:mb-4"
+                        className={cn(
+                          "text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4",
+                          value.textColor
+                        )}
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
