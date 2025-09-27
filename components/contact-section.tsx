@@ -21,21 +21,21 @@ const contactInfo = [
     label: "Email",
     value: "estrategiasaura@gmail.com",
     href: "mailto:estrategiasaura@gmail.com",
-    gradient: "from-secondary to-accent",
+    gradient: "from-red-400 to-cyan-400",
   },
   {
     icon: Phone,
     label: "Telefone",
     value: "+55 11 94288-1849",
     href: `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
-    gradient: "from-secondary to-accent",
+    gradient: "from-red-400 to-cyan-400",
   },
   {
     icon: MapPin,
     label: "Localização",
     value: "São Paulo",
     href: "#",
-    gradient: "from-secondary to-accent",
+    gradient: "from-red-400 to-cyan-400",
   },
 ];
 
